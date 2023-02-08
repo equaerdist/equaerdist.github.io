@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.block_red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+.wrapper {
+  width: 576px;
+  height: 200px;
+}
+.wrap__block {
+  width: 250px;
+  height: 50px;
+  background-color: black;
+}
+.block_green {
+  margin-left: 10px;
+  padding: 20px;
+  width: 300px;
+  height: 500px;
+  background-color: green;
+}
