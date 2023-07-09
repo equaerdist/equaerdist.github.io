@@ -1,0 +1,118 @@
+.catalog-item {
+  .mt-reset {
+    margin-top: 0;
+  }
+  hr {
+    margin: 0;
+    margin-top: 19px;
+    margin-inline: 20px;
+  }
+  margin-top: 20px;
+  overflow: hidden;
+  width: 300px;
+  min-height: 440px;
+  padding: 20px 0 24px 0;
+  border: solid 2px #e8e8e8;
+  &__image {
+    display: block;
+    margin: 0 auto;
+    max-width: 86%;
+  }
+  &__dscr {
+    display: block;
+    margin: 0 auto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    color: #0d0d0d;
+    margin-top: 16px;
+    width: 220px;
+  }
+  &__subtitle {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #0d0d0d;
+    margin-top: 20px;
+  }
+  &__link {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: $main-color;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 17px;
+  }
+  &__price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    s {
+      margin-bottom: -5px;
+      font-size: 14px;
+      font-weight: 300;
+      color: #555;
+    }
+    font-size: 20px;
+    font-weight: 700;
+    color: #050505;
+  }
+  &__wrapper {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 21px;
+    align-items: center;
+    width: 260px;
+    vertical-align: top;
+    justify-content: space-between;
+  }
+  &__switcher {
+    --animate-duration: 0.2s;
+    > div {
+      width: 47.4703%;
+    }
+    width: calc(200% + 40px);
+    display: flex;
+    min-height: 312px;
+    justify-content: space-between;
+    flex-direction: row;
+    transition: 1s all;
+    &_active {
+      flex-direction: row-reverse;
+    }
+  }
+  &__main {
+    width: 47.4703%;
+  }
+  &__reserve {
+    min-height: 290px;
+    padding: 0;
+    margin: 0 auto;
+    width: 237px;
+    list-style-type: none;
+  }
+  &__stroke {
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    text-align: left;
+    color: #555;
+    margin-top: 18px;
+    &:nth-child(1) {
+      margin-top: 0;
+    }
+    &:before {
+      content: "";
+      width: 5px;
+      height: 5px;
+      position: absolute;
+      background-color: $main-color;
+      top: 5px;
+      left: -14px;
+    }
+  }
+}

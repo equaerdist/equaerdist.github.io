@@ -1,0 +1,55 @@
+.feedback {
+  min-height: 947px;
+  padding-bottom: 71px;
+  &__item {
+    vertical-align: top;
+    width: 879px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 102px;
+    &:first-child {
+      margin: 0;
+    }
+  }
+  &__image {
+    width: 169px;
+    height: 169px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  &__subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    color: #646464;
+    display: block;
+    margin-top: 10px;
+  }
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #0d0d0d;
+    display: block;
+  }
+  &__dscr {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0d0d0d;
+    margin-top: 10px;
+  }
+  &__texts {
+    width: 656px;
+  }
+}

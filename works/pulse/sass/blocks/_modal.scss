@@ -1,0 +1,56 @@
+.modal {
+  transition: 1s all;
+  position: relative;
+  &__close {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: -28px;
+    height: 21px;
+    width: 20px;
+    justify-content: center;
+    display: flex;
+    &:hover {
+      &:after,
+      &:before {
+        background-color: #fff;
+      }
+    }
+    &::after {
+      transform: rotate(-45deg);
+      content: "";
+      width: 2px;
+      background-color: $main_color;
+    }
+    &::before {
+      transform: rotate(45deg);
+      content: "";
+      width: 2px;
+      background-color: $main_color;
+    }
+  }
+  &_active {
+    display: block;
+  }
+  &_wishes {
+    height: 140px;
+  }
+  display: none;
+  background-color: #f2f2f2;
+  padding: 38px 0 40px 0;
+  width: 380px;
+  height: 420px;
+  &__title {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    color: #0d0d0d;
+  }
+  &__dscr {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #0d0d0d;
+    margin-top: 11px;
+  }
+}

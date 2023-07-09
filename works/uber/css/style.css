@@ -1,0 +1,221 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  background-color: #212121;
+  min-height: 51px;
+  position: fixed;
+  width: 100%;
+}
+header {
+  position: relative;
+}
+.menu {
+  padding: 10px 70px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 25px;
+}
+.menu .menu_item .menu_link {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+.subheader {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.subheader .container .text {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 17px;
+}
+.subheader .container .text-phone {
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-top: 23px;
+}
+.subheader .container .phone {
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  margin-top: 8px;
+  line-height: 12px;
+}
+.imglogo {
+  display: block;
+  margin-top: 16px;
+}
+.btn-call {
+  text-shadow: 0.4px 0.4px 0 rgba(0, 0, 0, 0.21);
+  border-radius: 5%;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  margin-top: 19px;
+  margin-bottom: 19px;
+  text-transform: uppercase;
+}
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+  margin: 0;
+}
+.subtitle {
+  line-height: 1;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  margin-top: 22px;
+}
+
+.promo {
+  background: url("../img/main.jpg") center center/cover no-repeat;
+  min-height: 799px;
+  padding: 234px 0 135px 0;
+}
+.subtext {
+  margin: 0;
+  margin-top: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.btn-phoned {
+  display: block;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  margin: 118px auto 0 auto;
+}
+.reason {
+  background-color: white;
+  min-height: 900px;
+  padding: 71px 0 78px 0;
+}
+.advantage {
+  padding: 4px;
+  margin: 0 auto;
+  display: block;
+  width: 112px;
+  height: 24px;
+  background-color: #000;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.eight {
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+  margin: 0;
+  margin-top: 38px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 57.5px;
+}
+.common {
+  width: 341px;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #202020;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  width: 480px;
+  margin: 0;
+  margin-top: 35px;
+  margin-inline: auto;
+  vertical-align: middle;
+  height: 142px;
+}
+.reason .row {
+  padding: 40px auto 48px auto;
+}
+.item span {
+  color: #1eacc7;
+}
